@@ -1,0 +1,21 @@
+body{
+    background-color: #eeeeee;
+    color: gray;
+}
+
+p{
+    color: black;
+}
+
+/* Esta es la manera de representar los ID */
+#uno{ 
+    color: skyblue;
+}
+
+.grupo1{
+    color: black;
+}
+
+.grupo2{
+    color: burlywood;
+}

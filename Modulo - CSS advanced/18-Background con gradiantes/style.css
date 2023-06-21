@@ -1,0 +1,8 @@
+body{
+    background-image: repeating-linear-gradient(100grad, rgb(16, 104, 245), rgb(234, 234, 234), rgb(236, 29, 29));
+
+}
+
+.fondo{
+    background-image: linear-gradient(to right bottom, rgb(16, 104, 245), rgb(234, 234, 234), rgb(236, 29, 29));
+}

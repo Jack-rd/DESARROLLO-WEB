@@ -1,0 +1,20 @@
+body{
+    background-color: #ccc;
+}
+
+.content{
+    padding: 20px;
+    background-color: thistle;
+}
+
+.inside{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#a{
+    background-color: hsla(200, 78%, 51%, 0.765);
+}
+
+#b{
+    background-color: hsla(120, 60%, 70%, 0.5);
+}

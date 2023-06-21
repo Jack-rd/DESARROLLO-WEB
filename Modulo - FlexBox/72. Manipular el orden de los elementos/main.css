@@ -1,0 +1,38 @@
+body{
+    background-color: #eee;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.primero{
+    order: 1;
+    color: aqua;
+}
+
+.segundo{
+    order: 2;
+    color: aquamarine;
+}
+
+.tercero{
+    order: 3;
+    color: blue;
+}
+
+.cuarto{
+    order: 4;
+    color: cadetblue;
+}
+
+.quinto{
+    order: 5;
+    color: cyan;
+}
+
+.sexto{
+    order: 6;
+    color: darkturquoise;
+}

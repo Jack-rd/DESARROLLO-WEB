@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(61, 58, 58);
+    color: antiquewhite;
+    width: 90%;
+    height: 90%;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(52, 110, 168);
+    align-items: baseline;
+}
+
+.blanco{
+    background-color: azure;
+    color: rgb(52, 110, 168);
+}
+
+.rojo{
+    background-color: rgb(221, 23, 85);
+    color: rgb(238, 238, 238);
+}
+
+.verde{
+    background-color: rgb(36, 239, 164);
+    color: rgb(255, 255, 255);
+}
+
+div{
+    border: solid 1px rgb(61,58,58);
+}

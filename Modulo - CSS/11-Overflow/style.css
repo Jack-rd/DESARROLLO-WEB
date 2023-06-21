@@ -1,0 +1,37 @@
+body{
+    background-color: #eee;
+}
+
+#overf0{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+
+#overf1{
+    width: 100px;
+    height: 100px;
+    background-color: #dff;
+    overflow: auto;
+}
+
+#overf2{
+    width: 100px;
+    height: 100px;
+    background-color: #ffd;
+    overflow: hidden;
+}
+
+#overf3{
+    width: 100px;
+    height: 100px;
+    background-color: #fdf;
+    overflow: scroll;
+}
+
+#overf4{
+    width: 80px;
+    height: 40px;
+    background-color: #fdf;
+    overflow-x: scroll;
+}

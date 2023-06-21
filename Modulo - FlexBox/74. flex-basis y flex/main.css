@@ -1,0 +1,42 @@
+body{
+    background-color: #eee;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: black;
+}
+
+.primero{
+    flex-grow: 1;
+    flex-basis: 100px;
+    color: aqua;
+    background-color: rgb(54, 53, 53);
+}
+
+.segundo{
+    /* flex-grow & flex-basis */
+    flex: 2.5 120px;
+    color: aquamarine;
+}
+
+.tercero{
+    flex-grow: 1;
+    color: rgb(43, 207, 199);
+}
+
+.cuarto{
+    flex-grow: 1;
+    color: cadetblue;
+}
+
+.quinto{
+    flex-grow: 1;
+    color: cyan;
+}
+
+.sexto{
+    flex-grow: 1;
+    color: darkturquoise;
+}

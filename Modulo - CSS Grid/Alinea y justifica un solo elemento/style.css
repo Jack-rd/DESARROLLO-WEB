@@ -1,0 +1,57 @@
+body{
+    background-color: #eee;
+}
+
+.grid{
+    background-color: brown;
+    display: grid;
+    grid-template-areas: "header header" "content sidebar" "footer footer";
+    grid-template-columns: 1fr 200px ;
+    grid-template-rows: 150px 1fr 150px;
+    grid-auto-rows: 150px;
+    grid-auto-flow: row;
+    border: 2px solid greenyellow;
+}
+
+.element{
+    background-color: aliceblue;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: aqua;
+}
+
+.item-1{
+    justify-self: center;
+    align-self: center;
+    background-color: #eee;
+}
+
+.item-2{
+    justify-self: stretch;
+    align-self: start;
+    background-color: #70d522;
+}
+
+.item-3{
+    justify-self: stretch;
+    align-self: stretch;
+    background-color: #1ee6cf;
+}
+
+.item-4{
+    justify-self: end;
+    align-self: stretch;
+    background-color: #b130c8;
+}
+
+.item-5{
+    justify-self: start;
+    align-self: end;
+    background-color: #fff;
+}
+

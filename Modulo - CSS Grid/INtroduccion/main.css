@@ -1,0 +1,12 @@
+body{
+    background-color: antiquewhite;
+}
+
+.grid{
+    display: inline-grid;
+}
+
+.element{
+    background-color: tomato;
+    color: aliceblue;
+}

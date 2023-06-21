@@ -1,0 +1,43 @@
+body{
+    background-color: #eee;
+}
+
+.box1{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+    transform: rotate(20deg);
+}
+
+.box2{
+    position: relative;
+    height: 155px;
+    width: 155px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+    transform: translate(250px, -100px);     
+
+}
+
+.box3{
+    position: relative;
+    left: 50px;
+    height: 320px;
+    width: 320px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+}
+
+.box3:hover{
+    transform: scale(1.1);
+}
+
+#dog{
+    margin: 10px;
+}
+
+

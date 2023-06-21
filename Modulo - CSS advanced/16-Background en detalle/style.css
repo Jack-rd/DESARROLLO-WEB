@@ -1,0 +1,47 @@
+body{
+    background-color: #eee;
+}
+
+p{
+    color: #eee;
+}
+
+.fondoStnd{
+    background-color: rgb(63, 238, 28);
+    background-image: url('https://placedog.net/400/200');
+    height: 300px;   
+    /* Default */
+    background-repeat: repeat;
+}
+
+.fondo{
+    background-color: rgb(63, 238, 28);
+    background-image: url('https://placedog.net/400/200');
+    height: 300px;   
+    background-repeat: no-repeat;
+}
+
+.fondo1{
+    background-color: rgb(63, 238, 28);
+    background-image: url('https://placedog.net/400/250');
+    height: 600px;   
+    background-repeat: repeat-y;
+}
+
+.fondo2{
+    background-color: rgb(63, 238, 28);
+    background-image: url('https://placedog.net/200/250');
+    height: 300px;   
+    background-repeat: repeat-x;
+}
+
+.fondo3{
+    background-color: rgb(63, 238, 28);
+    background-image: url('https://placedog.net/920');
+    height: 400px;   
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-attachment: fixed;
+    background-size: contain;
+}
+

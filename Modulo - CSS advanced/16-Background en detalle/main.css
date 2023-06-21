@@ -1,0 +1,9 @@
+body{
+    background-color: #eee;
+}
+
+.fondo{
+    height: 500px;
+    background: black url('https://placedog.net/500') no-repeat center top fixed;
+    background-size: cover;    
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: #eee;
+}
+
+div{
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: solid 1px #eee;
+    border-left: solid 1px #ddd ;
+    border-right: solid 1px #ddd;
+}
+
+#footer{
+    border-bottom: solid 2px #ddd;
+    border-radius: 0px 0px 3px 3px;
+}
+
+#header{
+    border-radius: 3px 3px 0px 0px;
+}
+
+button{
+    color: #fff;
+    border: 0px;
+    padding: 5px;
+    background-color: #bbb;
+}
+
+#ok{
+    background-color: #0090ff;
+}

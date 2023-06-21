@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(61, 58, 58);
+    color: antiquewhite;
+    width: 200px;
+}
+
+.flex{
+    display: flex;
+    background-color: rgb(52, 110, 168);
+}
+
+.w{
+    flex-wrap: wrap;
+}
+.wr{
+    flex-wrap: wrap-reverse;
+}
+
+.nw{
+    flex-wrap: nowrap;
+}
+
+div{
+    border: solid 1px rgb(61,58,58);
+}
+
+span{
+    background-color: rgb(52, 110, 168)
+};

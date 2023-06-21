@@ -1,0 +1,21 @@
+body{
+    background-color: #eee;
+}
+
+.caja{
+    margin: 8px;
+    padding: 8px;
+    background-color: #aaf;
+    border-style: solid double groove  ;
+    border-width: 5px;
+    border-color: #faa;
+}
+
+.box{
+    margin: 8px;
+    padding: 10px;
+    border-left: 12px solid rgb(18, 44, 243);
+    border-right: 50px solid rgb(241, 26, 26);
+    border-top: 12px solid rgb(18, 44, 243);
+    border-bottom: 6px solid rgb(120, 0, 0);
+}

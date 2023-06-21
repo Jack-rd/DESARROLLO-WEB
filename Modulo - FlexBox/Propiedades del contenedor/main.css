@@ -1,0 +1,28 @@
+body{
+    background-color: blanchedalmond;
+}
+
+p{
+    font-weight: bold;
+}
+
+code{
+    background-color: rgb(0, 111, 20);
+    color: blanchedalmond;
+}
+
+.flex{
+    display: flex;
+}
+
+.col{
+    flex-direction: column;
+}
+.col-r{
+    flex-direction: column-reverse;
+}
+
+.row{
+    flex-direction: row;
+}
+

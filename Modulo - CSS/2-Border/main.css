@@ -1,0 +1,17 @@
+body{
+    background-color: #222;
+    color: #eee;
+}
+
+.box{
+    background-color: rgb(64, 183, 251);
+    margin: 16px;
+    padding: 24px;
+    height: 100px;
+    width: 100px;
+    border-left: 30px solid #ccc;
+    border-right: 30px solid #ddd;
+    border-top: 12px double #eee;
+    border-bottom: 12px double #fff;
+    border-radius: 8px;
+}

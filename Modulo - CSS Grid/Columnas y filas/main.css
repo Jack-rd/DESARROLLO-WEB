@@ -1,0 +1,19 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.grid{
+    display: grid;
+    /* esto nos sirve para ajustar la altura de las filas */
+    grid-template-rows: 50px 50px;
+    /* esto ajusta el acho de las columnas */
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+}
+
+.Element{
+    background-color: aqua;
+}
+
+.Elementp{
+    background-color: brown;
+}

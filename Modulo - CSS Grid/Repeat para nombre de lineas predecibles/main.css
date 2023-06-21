@@ -1,0 +1,26 @@
+body{
+    background-color: #eee;
+}
+
+.grid{
+    display: grid;
+    /* grid-template-rows: [row-inicio] 50px [row-fin] 50px; */
+    grid-template-rows: repeat(2, [row-inicio] 50px [row-fin]);
+    /* grid-template-columns: [col-1] 1fr [col-2] 1fr [col-3] 1fr ; */
+    grid-template-columns: repeat(3, [col-inicio] 1fr [col-fin]);
+    grid-gap: 10px;
+}
+
+.element{
+    padding: 4px;
+    background-color: bisque;
+    border: solid 1px #aaa;
+    text-align: center;
+}
+
+.header:hover{
+    grid-column: col-inicio/col-fin 3;
+    grid-row: row-inicio/col-fin 3;
+    background-color: antiquewhite;
+    font-size: xx-large;
+}

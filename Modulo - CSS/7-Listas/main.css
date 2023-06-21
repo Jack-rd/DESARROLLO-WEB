@@ -1,0 +1,37 @@
+body{
+    background-color: #ddd;
+}
+
+
+
+/* https://developer.mozilla.org/es/docs/Web/CSS/list-style */
+
+
+li:hover{
+    background-color: #eee;
+} 
+
+ul{
+    list-style-type: none;
+    background-color: #fff;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+li{
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+}
+
+/* #L1{
+    list-style: circle;
+}
+
+#L2{
+    list-style: upper-roman;
+}
+
+#L3{
+    list-style: upper-alpha;
+} */

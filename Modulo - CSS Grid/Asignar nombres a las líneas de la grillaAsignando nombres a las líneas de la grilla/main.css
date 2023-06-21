@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+}
+
+.grid{
+    display: grid;
+    position: fixed;
+    grid-template-rows: [row-main] 40px [row-subtema] 25px repeat(2,20px);
+    grid-template-columns: [col-main] 3fr [col-2] 1fr;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.element{
+    background-color: black;
+    color: aquamarine;
+    font-size: large;
+    text-align: center;
+    padding: 8px;
+}
+
+.header{
+    grid-row: row-main / row-subtema;
+}

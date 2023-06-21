@@ -1,0 +1,18 @@
+body{
+    background-color: #eed;
+}
+
+p{
+    color: #789;
+    text-align: justify;
+    text-indent: 5%;
+    line-height: 1.7;
+    word-spacing: 10px;
+}
+
+a{
+    text-decoration: none;
+    text-transform:capitalize;
+    letter-spacing: 5px;
+}
+

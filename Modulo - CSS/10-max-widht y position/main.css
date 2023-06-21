@@ -1,0 +1,40 @@
+body{
+    background-color: #eee;
+}
+
+p{
+    display: inline;
+    background-color: #e0ed2c;
+    max-width: 350px;
+    margin: 0px;
+    padding: 5px;
+    position: relative;
+    left: 81.5px;
+    top: 0px;
+}
+
+span{
+    position: fixed;
+    background-color: burlywood;
+    padding: 5px;
+    top: 0px;
+    left: 0px;
+}
+
+#menu{
+    background-color: #ed632c;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    line-height: 1em;
+}
+
+#content{
+    top: 28.57px;
+    left: 0px;
+    background-color: antiquewhite;
+
+}
